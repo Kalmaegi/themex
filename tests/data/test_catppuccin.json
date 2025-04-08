@@ -1,0 +1,46 @@
+{
+  "name": "Catppuccin Mocha Test",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1e1e2e",
+    "editor.foreground": "#cdd6f4",
+    "editor.findMatchBackground": "#5e3f53",
+    "editor.findMatchHighlightBackground": "#3e5767",
+    "editor.findRangeHighlightBackground": "#3e5767",
+    "editor.findRangeHighlightBorder": "#89dceb33",
+    "editor.lineHighlightBackground": "#cdd6f412",
+    "editorLineNumber.activeForeground": "#cba6f7",
+    "editorLineNumber.foreground": "#ff8e25",
+    "editorGutter.background": "#1e1e2e",
+    "tab.activeBackground": "#1e1e2e",
+    "tab.activeForeground": "#cba6f7",
+    "tab.inactiveBackground": "#181825",
+    "tab.inactiveForeground": "#6c7086",
+    "tab.border": "#181825",
+    "statusBar.background": "#11111b",
+    "statusBar.foreground": "#cdd6f4",
+    "statusBar.noFolderBackground": "#11111b",
+    "statusBar.noFolderForeground": "#cdd6f4",
+    "activityBar.background": "#11111b",
+    "activityBar.foreground": "#cba6f7",
+    "sideBar.background": "#181825",
+    "sideBar.foreground": "#cdd6f4"
+  },
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+  },
+  "tokenColors": [
+    {
+      "name": "Basic text & variable names (incl. leading punctuation)",
+      "scope": [
+        "text",
+        "source",
+        "variable.other.readwrite",
+        "punctuation.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#cdd6f4"
+      }
+    }
+  ]
+}
