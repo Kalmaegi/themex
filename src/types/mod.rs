@@ -73,4 +73,3 @@ impl fmt::Display for ThemeConfig {
         )
     }
 }
-

@@ -95,7 +95,6 @@ impl<'a> LuaGenerator<'a> {
         Ok(content)
     }
 
-
     fn format_highlight_table(&self, group: &str, highlight: &HighlightGroup) -> String {
         println!("[format_highlight_table] group: {:?}", group);
         let bg_color = self.theme.colors.get("editor.background").unwrap();

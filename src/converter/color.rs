@@ -58,7 +58,6 @@ pub fn normalize_color(fg: &str, bg: &str) -> Result<String> {
     Ok(format!("#{:02x}{:02x}{:02x}", r, g, b))
 }
 
-
 fn rgb_to_hsl(color: &str) -> Result<(f32, f32, f32)> {
     let (r, g, b, _) = parse_color(color)?;
 
@@ -70,7 +69,6 @@ fn rgb_to_hsl(color: &str) -> Result<(f32, f32, f32)> {
     let min = r_norm.min(g_norm).min(b_norm);
     let delta = max - min;
 
-    
     let lightness = (max + min) / 2.0;
 
     let saturation = if delta == 0.0 {

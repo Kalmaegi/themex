@@ -35,7 +35,6 @@ impl<'a> VimGenerator<'a> {
         let theme_name = sanitize_name(&self.theme.name);
         content.push_str(&format!("let g:colors_name = \"{}\"\n\n", theme_name));
 
-
         content.push_str("\" Highlight groups\n");
 
         if let Some(normal) = self.highlights.get("Normal") {
